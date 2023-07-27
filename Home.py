@@ -13,10 +13,7 @@ def run_script(script_name):
     clear_screen()
     display_header()
 
-    print(f"\n\033[91mExecutando o script {script_name}...\033[0m\n")
-    # Aqui você pode adicionar a lógica para executar o script correspondente
-    # por exemplo: os.system(f"python {script_name}")
-
+    print(f"\n\033[91mExecutando o script {script_name}...\033[0m\n")0
     input("\nPressione Enter para voltar ao menu...")
 
 def main():
