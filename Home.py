@@ -22,7 +22,7 @@ def main():
         display_header()
 
         print("\nOpções:")
-        print("1. Rodar o script ferramenta.py")
+        print("1. Rodar o script ferramenta1.py")
         print("2. Rodar o script ferramenta2.py")
         print("3. Rodar o script ferramenta3.py")
         print("4. Rodar o script ferramenta4.py")
