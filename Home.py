@@ -1,11 +1,10 @@
 import os
-from termcolor import colored
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def display_header():
-    header_text = colored("Eyes Of Security Group", 'red')
+    header_text = "\033[91mEyes Of Security Group\033[0m"
     disclaimer_text = "Script para fins educativos e testes, não me responsabilizo por nada"
     print(header_text.center(50))
     print(disclaimer_text.center(50))
